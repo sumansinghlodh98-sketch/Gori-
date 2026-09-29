@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Gori 💗</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,'Times New Roman',serif;background:linear-gradient(135deg,#fff0f6,#ffe0ed,#fff7fb);color:#64203f;text-align:center}
+main{max-width:900px;margin:auto;padding:22px 14px 50px}
+.card{background:#ffffffdf;border:1px solid #ffd0e2;border-radius:24px;padding:24px 18px;margin:18px 0;box-shadow:0 8px 25px #d94d8420}
+h1{font-size:clamp(2.2rem,8vw,4rem);color:#d93679;margin:12px 0}h2{color:#bd2868}p{font-size:1.06rem;line-height:1.8}
+button{border:0;border-radius:999px;background:#ff5e9c;color:white;padding:13px 22px;font-size:1rem;cursor:pointer;box-shadow:0 5px 15px #d9367940}
+.hero{padding:35px 15px}.hidden{display:none}.heart{font-size:1.4rem;color:#e83e82}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 18px;padding:18px 2px 10px}
+.photo-wrap{position:relative;padding-top:16px;transform:rotate(-2deg)}
+.photo-wrap:nth-child(even){transform:rotate(2.5deg);margin-top:24px}
+.string{position:absolute;top:5px;left:-6%;width:112%;height:2px;background:#c7a77c;transform:rotate(-2deg);z-index:0}
+.clip{position:absolute;top:0;left:calc(50% - 7px);width:14px;height:25px;background:#d9b17b;border:1px solid #b58c58;border-radius:2px;z-index:3;box-shadow:0 2px 3px #7e4b2725}
+.polaroid{position:relative;z-index:1;background:#fffdfb;padding:9px 9px 0;border:1px solid #f0d9df;box-shadow:0 7px 14px #8d3b5820}
+.polaroid img{display:block;width:100%;height:170px;object-fit:cover;background:#ffe7f0}
+.caption{display:block;width:100%;min-height:42px;border:0;border-top:1px solid #f7e4e9;background:#fffdfb;text-align:center;font:italic 14px Georgia,serif;color:#8d4864;padding:10px 3px;outline:none}
+.caption:empty:before{content:'Write a caption…';color:#bd8ba0}
+.cake{font-size:4rem;animation:bob 2s infinite ease-in-out}@keyframes bob{50%{transform:translateY(-8px)}}
+.confetti{position:fixed;top:-20px;z-index:9;pointer-events:none;animation:fall linear forwards}@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:.2}}
+.letter{text-align:left}.letter p{font-size:1rem}
+footer{padding:20px;color:#9b4770}
+@media(min-width:650px){.gallery{grid-template-columns:repeat(3,minmax(0,1fr));gap:38px 24px}.polaroid img{height:190px}}
+@media(max-width:370px){.gallery{gap:28px 12px}.polaroid{padding:6px 6px 0}.polaroid img{height:130px}.caption{font-size:12px}}
+</style></head>
+<body><main>
+<section class="card hero"><div class="heart">♡ ♡ ♡</div><p>A little surprise made with love for</p><h1>Gori 💗</h1><div class="cake">🎂</div><h2>Happy Birthday!</h2>
+<p>Today is all about you, your smile, and all the fun memories we share.</p><button onclick="openSurprise()">Tap for your surprise ✨</button><p id="surprise" class="hidden">You deserve all the happiness, love, laughter, and beautiful little moments in the world! 💕</p></section>
+<section class="card"><h2>Our Little Memories 📸</h2><p>Our memories, hanging here like little pieces of happiness. 💞</p>
+<div class="gallery">
+<div class="photo-wrap"><span class="string"></span><span class="clip"></span><div class="polaroid"><img src="IMG_20260929_191723.jpg" alt="Memory 1"><div class="caption" contenteditable="true" aria-label="Caption for memory 1"></div></div></div>
+<div class="photo-wrap"><span class="string"></span><span class="clip"></span><div class="polaroid"><img src="IMG_20260929_191737.jpg" alt="Memory 2"><div class="caption" contenteditable="true" aria-label="Caption for memory 2"></div></div></div>
+<div class="photo-wrap"><span class="string"></span><span class="clip"></span><div class="polaroid"><img src="IMG_20260929_191751.jpg" alt="Memory 3"><div class="caption" contenteditable="true" aria-label="Caption for memory 3"></div></div></div>
+<div class="photo-wrap"><span class="string"></span><span class="clip"></span><div class="polaroid"><img src="IMG_20260929_191804.jpg" alt="Memory 4"><div class="caption" contenteditable="true" aria-label="Caption for memory 4"></div></div></div>
+<div class="photo-wrap"><span class="string"></span><span class="clip"></span><div class="polaroid"><img src="IMG_20260929_192508.jpg" alt="Memory 5"><div class="caption" contenteditable="true" aria-label="Caption for memory 5"></div></div></div>
+</div></section>
+<section class="card letter"><h2 style="text-align:center">A Letter for You 💌</h2>
+<p><strong>My Extrovert Best friend, 🎀❤️</strong></p>
+<p>Happy Birthday to the most playful, craziest, and sweetest person in my life! 🥳💗</p>
+<p>Honestly, I don't think words are enough to describe how much fun I have with you. Every moment spent with you becomes a memory worth keeping. Whether we are laughing at the most stupid things, teasing each other for no reason, doing silly stuff, or just talking about random things, you always make everything feel special. 🥹🫂</p>
+<p>You have this special talent for turning even the most boring moments into the funniest ones. Sometimes I wonder if you were born to annoy me or to make me laugh, because you do both perfectly! 😂💕 But honestly, I wouldn't want it any other way. Life would be so boring without your craziness, your playful nature, and your adorable nonsense.</p>
+<p>Thank you for being exactly who you are and for making even ordinary days feel special. Thank you for all the laughter, the silly moments, and the memories we have made together. I hope your birthday brings you as much happiness as you bring to everyone around you. Never change your beautiful, crazy self. Love you lots! 💗🫂</p>
+<p style="text-align:right">With lots of love,<br><strong>Suman 💗</strong></p></section>
+<section class="card"><h2>Make a Wish! 🌟</h2><p>Close your eyes, make a wish, and let the birthday magic begin.</p><button onclick="celebrate()">Celebrate again 🎉</button></section>
+<footer>Made with love by Suman for Gori 💗</footer></main>
+<script>
+function openSurprise(){document.getElementById('surprise').classList.remove('hidden');celebrate()}
+function celebrate(){const emojis=['💗','💕','✨','🌸','🎉','💖'];for(let i=0;i<35;i++){const el=document.createElement('span');el.className='confetti';el.textContent=emojis[Math.floor(Math.random()*emojis.length)];el.style.left=Math.random()*100+'vw';el.style.animationDuration=(2+Math.random()*3)+'s';el.style.fontSize=(14+Math.random()*20)+'px';document.body.appendChild(el);setTimeout(()=>el.remove(),5200)}}
+</script></body></html>
